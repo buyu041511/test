@@ -13,7 +13,17 @@
 		</script>
 
 2.一个富豪想存87万,给理财顾问写了87w,请自动生成存储870000的方法,显示在页面id为h2的元素中
-答:
+答:<div id="h2">
+			
+		</div>
+		
+		<script type="text/javascript">
+			var h2 =document.getElementById("h2")
+			var num ="78"
+			var nums =num.padEnd(6,"0")
+		h2.innerHTML=nums
+		</script>
+
 
 3.一个数字79387.348的工程款,保留两位小数存入,显示在页面id为h3的元素中
 答:
